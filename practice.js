@@ -51,7 +51,7 @@ function greeting (name) {
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
-var newGreeting = function (name) {
+let newGreeting = function (name) {
   return `Hello, ${name}`
 }
 
@@ -72,9 +72,9 @@ let groceries = ["apples", "milk", "eggs", "bread"]
 
 //Code Here
 let dog = {
-  name: "Mr. Cuddlesworth",
-  color: "Black",
-  age: 2,
+  name: "Bones",
+  color: "White",
+  age: 7,
   goodBoy: true
 }
 
@@ -82,7 +82,7 @@ let dog = {
 //variable called devMountainClassPet.
 
 //Code Here
-let devMountainClassPet = dog ["name"]
+let devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
@@ -131,12 +131,12 @@ let mathSum = add (3,4)
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
-function faveColorFinder (color) {
-  if (color === "red"){
-    return "red is a great color"
-  } else if (color === "green"){
+function faveColorFinder(color) {
+  if (color === "red") {
+      return "red is a great color"
+  } else if (color === "green") {
       return "green is a solid favorite color"
-  } else if (color === "black"){
+  } else if (color === "black") {
       return "so trendy"
   } else {
       return "you need to evaluate your favorite color choice"
@@ -181,13 +181,13 @@ let pondScope = ["duck", "realDuck"];
 //Create a variable called age with your age assigned to you
 
 // Code Here
-let age = 24
+let age = 25
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-age +=1
+age += 1
 
 // Good news! We can live forever. Set your age to 999
 
